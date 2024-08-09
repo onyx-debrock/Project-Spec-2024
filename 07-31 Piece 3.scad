@@ -18,6 +18,6 @@ color("pink")translate([-1,-1,23])cube([17,3,3]);
 color("pink")translate([29,-1,23])cube([17,3,3]);
 color("green")translate([9,-1,22])cube([2,3,5]);
 color("green")translate([34,-1,22])cube([2,3,5]);
-color("black")translate([5,-1,2])cube([10,3,3]);
+color("black")translate([6,-1,2])cube([10,3,3]);
 color("black")translate([29,-1,2])cube([10,3,3]);
 }
