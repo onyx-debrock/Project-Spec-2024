@@ -1,0 +1,10 @@
+$fn=100;
+difference()
+{
+translate([0,0,0])cube([45,1,42]);
+color("black")translate([-1,-1,-1])cube([4,3,4]);
+color("black")translate([42,-1,-1])cube([4,3,4]);
+color("black")translate([-1,-1,39])cube([4,3,4]);
+color("black")translate([42,-1,39])cube([4,3,4]);
+color("blue")translate([22.5,2,0])rotate([90,0,0])cylinder(3,2.5,2.5);
+}
